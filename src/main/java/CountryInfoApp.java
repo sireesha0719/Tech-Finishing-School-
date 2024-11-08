@@ -17,7 +17,7 @@ public class CountryInfoApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        String countryName = "France";  // Set the country name you want to display
+        String countryName = "India";  // Set the country name you want to display
         String htmlContent = fetchCountryData(countryName);
 
         WebView webView = new WebView();
